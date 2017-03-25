@@ -1,0 +1,47 @@
+import turtle
+myTurtle = turtle.Turtle()
+myWin = turtle.Screen()
+
+# 波浪
+def drawWave(myTurtle,lineLen,n):
+    if lineLen>5:
+        myTurtle.left(n)
+        myTurtle.forward(lineLen-10)
+        myTurtle.right(n*2)
+        myTurtle.forward(lineLen-10)
+        myTurtle.left(n)
+        myTurtle.forward(10)
+        drawWave(myTurtle,lineLen-10,n)
+# drawWave(myTurtle,60,20)
+# 螺旋阶梯
+# lineLen = 5
+# while lineLen <100:
+#     myTurtle.right(20)
+#     lineLen += 2
+#     myTurtle.forward(lineLen)
+
+# 圆形
+# while True:
+#     myTurtle.right(15)
+#     myTurtle.forward(50)
+#     myTurtle.left(70)
+#     myTurtle.forward(50)
+def drawTree(myTurtle,lineLen):
+    #lineLen = 50
+    while lineLen>5:
+        myTurtle.forward(lineLen)
+        myTurtle.right(10)
+        myTurtle.forward(lineLen)
+        myTurtle.backward(lineLen)
+        myTurtle.left(30)
+        myTurtle.forward(lineLen)
+        drawTree(myTurtle,lineLen-15)
+        lineLen -= 10
+# drawTree(myTurtle,50)
+
+def drawStar(myTurtle=myTurtle,lineLen=20):
+    for i in range(5):
+        myTurtle.forward(lineLen)
+        myTurtle.right(144)  # 五角星的5个角都是36度
+drawStar()
+myWin.exitonclick()
