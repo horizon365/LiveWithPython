@@ -1,0 +1,25 @@
+import os,sys
+
+
+def RenameFiles(path): # path为绝对路径
+    choice = input("0 : 随机模式，1、2、3……\n1 : 追加模式，file1 、 file2……\n")
+    num = 1
+    NewName = ''
+    if os.path.exists(path):
+        if num < len(os.listdir(path))+1:
+            for x in os.listdir(path):
+                if choice == '1':
+                    try:
+                        if x.split('.')[1]:     # 通过切割来判断点是否存在，存在，则在点前添加
+                            NewName = x.split('.')[0] + str(num) +'.'+ x.split('.')[1]
+                    except IndexError:
+                        NewName = x.split('.')[0] + str(num)  # 不存在，则在点后添加
+                elif choice == '0':
+                    NewName = str(num)
+                num = num + 1
+                os.rename(os.path.join(path,x),os.path.join(path,NewName)) # 1.如果path指定的文件夹不是这个程序的所在的目录，rename函数里面的路径就必须是绝对路径，否则就会报‘WindowsError: [Error 2]’错误
+    else:
+        print('路径不存在，请确认输入为绝对路径')
+        sys.exit(1)
+    print(os.listdir(path))
+
