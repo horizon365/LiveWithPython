@@ -1,0 +1,4 @@
+for ch in range(0x4e00, 0x9fa6):
+    print(chr(ch))
+input()
+# 打印所有汉字
