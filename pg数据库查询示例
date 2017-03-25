@@ -1,0 +1,10 @@
+import psycopg2
+
+
+conn = psycopg2.connect(database="cygnus",user="cygnus",password="147852",host="192.168.1.250",port="5432")
+cur = conn.cursor()
+x = '192.168.1.20'
+cur.execute("SELECT country FROM opr.db_ip WHERE ip_from <= '{0}' AND ip_to >= '{0}'".format(x))
+ip = cur.fetchone()
+
+conn.close()
