@@ -1,0 +1,11 @@
+import subprocess
+
+subprocess.call('rsync -avzP root@45.79.102.16:/tmp/client_andid_uniq.gz /tmp/client_andid_uniq.gz') # 同步远程备份后的压缩文件到本地
+subprocess.call('gunzip -c /tmp/client_andid_uniq.gz|psql -U postgres -d cygnus')
+
+# 导出到压缩包      pg_dump -d cygnus -U postgres -t biz.task_req_$DATE |gzip > /tmp/task_req_$DATE.gz
+# 从压缩包导入      gunzip -c /tmp/client_andid_uniq.gz|psql -U postgres -d cygnus
+# 远程导入导出      pg_dump -d cygnus -U postgres -t biz.task_req_$DATE | PGPASSWORD="147852" psql -h 45.33.21.14 -p 5432 -U postgres -d cygnus
+#                   PASSWORD=‘#,Qa142Aq’ pg_dump -h 45.79.102.16 -d cygnus -U postgres -t biz.task_req_20161007 | psql -U postgres -d cygnus    
+# /root/目录下建立.pgpass文件，并修改权限为600，内容格式为
+# 45.79.102.16:5432:cygnus:postgres:#,Aq
