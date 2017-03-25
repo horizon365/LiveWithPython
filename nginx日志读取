@@ -1,0 +1,33 @@
+import os
+
+
+def dl_counter():
+    _pointer_file = '/tmp/south'
+    _log = 'access.log'
+
+    def get_pointer():
+        if os.path.exists(_pointer_file):
+            _ln = open(_pointer_file, 'r+').readline()  # 存在则从文件读取
+            if int(_ln) > os.path.getsize(_log):  # 指针文件的位置大于日志文件的总位置
+                _ln = 0     # 读到末尾，则从0开始
+        else:
+            _ln = 0   # 指针文件不存在的情况下，从0开始
+        return int(_ln)
+
+    def save_pointer(_pointer):   # 非追加型存储指针文件！！！
+        open(_pointer_file, 'w').write(_pointer)
+
+    def dl_stats(_logs):
+        sdk_dl, app_dl = dict(), dict()
+        for line in _logs:
+            if 'OK' in line and 'downloads/sdk' in line:
+                sdk_dl[line.split()[6]] = 1 if line.split()[6] not in sdk_dl.keys() else sdk_dl[line.split()[6]] + 1  # 如果新值不在字典的dict中，赋值为1，如果在了，则加1
+            if 'OK' in line and 'downloads/apps' in line:
+                app_dl[line.split()[6]] = 1 if line.split()[6] not in app_dl.keys() else app_dl[line.split()[6]] + 1
+        return sdk_dl, app_dl
+
+
+    with open(_log) as f:
+        f.seek(int(get_pointer()), 0)
+        save_pointer(str(f.tell()) + '\n')
+        pass
