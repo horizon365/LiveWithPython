@@ -1,0 +1,42 @@
+import psycopg2
+import subprocess
+
+#dicta = {}
+lista = []
+for date in range(6,284):
+    date_day = date
+    date_day_ago = date + 1
+    day_ago = subprocess.check_output('date -d "{0} days ago" +%Y%m%d'.format(date_day_ago),shell=True)
+    day = subprocess.check_output('date -d "{0} days ago" +%Y%m%d'.format(date_day),shell=True)   # check_output返回的类型为byte
+    dicta = {'20160902\n':str(day_ago,encoding = "utf-8")}
+    lista.append(dicta)
+
+
+
+
+
+conn = psycopg2.connect(database="cygnus",user="cygnus",password="147852",host="192.168.1.127",port="5432")
+cur = conn.cursor()
+for x in lista:
+    for item in x:
+        #print(item.split('\n')[0],x[item].split('\n')[0])
+        cur.execute("SELECT count(DISTINCT andid) from biz.task_req_{0} WHERE EXISTS (SELECT 1 FROM biz.task_req_{1} WHERE andid=biz.task_req_{0}.andid) and channel_id like'%012090'".format(item.split('\n')[0],x[item].split('\n')[0]))  # bytes to strings
+        fenzi = cur.fetchall()
+        cur.execute("SELECT count(DISTINCT andid) from biz.task_req_{0} where channel_id like '%012090'".format(x[item].split('\n')[0]))
+        fenmu = cur.fetchall()
+        print(item.split('\n')[0],x[item].split('\n')[0],end=' ')
+        for xitem in fenzi:
+
+
+            for xxitem in xitem:
+                for yitem in fenmu:
+                    for yyitem in yitem:
+                        try:
+                            print(xxitem/yyitem*100,'%')
+                        except ZeroDivisionError:
+                            print(0)
+conn.close()
+
+
+
+
