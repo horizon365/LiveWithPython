@@ -1,10 +1,4 @@
-for letter in 'Python':
-   if letter == 'h':
-      pass
-      print('这是 pass 块')  # pass后的语句还能打印，和continue有什么不同？
-   print('当前字母 :', letter)
-   
-   
+
 import re
 import itertools
 def solve(puzzle):
