@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+"""
+
+created on '2017/10/12'
+@author: 'lWX465581'
+"""
+from flask import Flask,request,g ,make_response ,jsonify ,render_template
+from flask.ext.wtf import Form
+from wtforms import StringField, RadioField,SubmitField
+from wtforms.validators import DataRequired
+from werkzeug.utils import secure_filename
+import json
+import os
+import sys
+
+app = Flask(__name__, static_url_path='')
+
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', "*")
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+    return response
+
+class TodoForm(Form):
+    choice = StringField('''fiber_fault:    -> a
+                            data_cvt:       -> b
+                            data_mgt:       -> c
+                            ui_int:         -> d
+                            hadoop:         -> e
+                            aabd            -> k
+                            spark           -> l
+                            model_mgt       -> m
+                            omc_alarm       -> n
+                            capacity_prediction_mgt -> o''', validators=[DataRequired()])
+    version = StringField('例如: 0.0.20171013', validators=[DataRequired()])
+    hosts = StringField('目标ip', validators=[DataRequired()])
+    branch = StringField('git分支',validators=[DataRequired()])
+    style =  RadioField('Lable',choices=[('realtime',"实现构建（较耗时）"),('no','缓存（仅限dev分支，默认版本号为：年月日AI）')])
+    submit = SubmitField('Submit')
+@app.route('/', methods=['POST',"GET"])
+def login():
+    if request.methods == "GET":
+        return render_template('show_entries.html')
+    elif request.methods == "POST":
+        choice = request.form.get('choice')
+        version = request.form.get('version')
+        hosts = request.form.get('target')
+        branch = request.form.get('branch')
+        style = request.form.get('style')
+        if style == 'realtime':
+            os.system("/usr/local/bin/fab -f /home/liuyiqun/Fab_auto_deploy/fabfile_auto.py reload_docker --set=version='%s',choice='%s',branch='%s' --hosts='%s'" % (version, choice, branch,hosts))
+        else:
+            os.system("/usr/local/bin/fab -f /home/liuyiqun/Fab_auto_deploy/fabfile_auto_reload.py reload_docker --set=choice='%s' --hosts='%s'" % (choice, hosts))
+    else:
+        make_response("not support")
