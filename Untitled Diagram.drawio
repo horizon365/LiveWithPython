@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T02:20:32.761Z" agent="5.0 (Macintosh)" etag="GItTBHT1xOQsaYFbpQ4m" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T01:42:44.635Z" agent="5.0 (Macintosh)" etag="ze9e1gWId-22fAKFqdd6" version="17.1.3" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
-    <mxGraphModel dx="2054" dy="856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,19 +52,19 @@
         <mxCell id="NoWb64LZTavxdnZhKHVA-13" value="有效共享" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="712" y="571" width="83" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="NoWb64LZTavxdnZhKHVA-20" value="化零为整" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="714" y="87" width="83" height="45" as="geometry" />
+        <mxCell id="NoWb64LZTavxdnZhKHVA-20" value="反哺平台" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="765" y="87" width="83" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="NoWb64LZTavxdnZhKHVA-22" target="NoWb64LZTavxdnZhKHVA-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NoWb64LZTavxdnZhKHVA-22" value="方便汇交" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="494" y="85" width="83.5" height="47" as="geometry" />
+        <mxCell id="NoWb64LZTavxdnZhKHVA-22" value="汇交共享" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="435" y="86" width="83.5" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="NoWb64LZTavxdnZhKHVA-23" target="NoWb64LZTavxdnZhKHVA-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NoWb64LZTavxdnZhKHVA-23" value="优质便捷" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="NoWb64LZTavxdnZhKHVA-23" value="可视化网站" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="606" y="87" width="83" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.stripedArrow;dy=0.6;dx=40;notch=25;hachureGap=4;rotation=90;" vertex="1" parent="1">
@@ -75,6 +75,42 @@
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-28" value="通用数据库安全方案" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;hachureGap=4;rotation=90;" vertex="1" parent="NoWb64LZTavxdnZhKHVA-25">
           <mxGeometry x="195" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-31" value="自动生成" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="527" y="73" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-35" value="化零为整，不是简单做加法" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="735" y="3" width="83" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-36" value="补充数据" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="697" y="73" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-37" value="" style="shape=actor;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="78" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.25;endAngle=0.1;arcWidth=0.5;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1216" y="316" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-41" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;hachureGap=4;rotation=105;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1289" y="180" width="132" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-42" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;hachureGap=4;rotation=105;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1123" y="177" width="132" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-45" value="补充数据&lt;br&gt;&lt;div&gt;反哺平台&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="202" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-47" value="自动生成&lt;br&gt;&lt;div&gt;可视化网站&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="216" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-48" value="汇交" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;hachureGap=4;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="165" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-49" value="共享" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;hachureGap=4;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="223" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="NoWb64LZTavxdnZhKHVA-50" value="近期目标：一体化数据库门户" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="-13" width="306" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
