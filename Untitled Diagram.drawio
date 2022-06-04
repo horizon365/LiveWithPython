@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T15:43:29.027Z" agent="5.0 (Macintosh)" etag="ak3QZ2HtIIpX7PcnUbO3" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T23:57:39.299Z" agent="5.0 (Macintosh)" etag="iN_b72YYYTbQxLltIGYE" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1346" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,16 +41,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-11" value="整合资源" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="491" y="571" width="83" height="45" as="geometry" />
+          <mxGeometry x="463" y="569" width="83" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="NoWb64LZTavxdnZhKHVA-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="NoWb64LZTavxdnZhKHVA-12" target="NoWb64LZTavxdnZhKHVA-13" edge="1">
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="NoWb64LZTavxdnZhKHVA-12" target="NoWb64LZTavxdnZhKHVA-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-12" value="有序互联" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="600" y="571" width="83" height="45" as="geometry" />
+          <mxGeometry x="619" y="567" width="86" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="NoWb64LZTavxdnZhKHVA-13" target="NoWb64LZTavxdnZhKHVA-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-13" value="有效共享" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="712" y="571" width="83" height="45" as="geometry" />
+          <mxGeometry x="553" y="660" width="83" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NoWb64LZTavxdnZhKHVA-20" value="反哺平台" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="765" y="87" width="83" height="45" as="geometry" />
@@ -125,7 +128,7 @@
           <mxGeometry x="383" y="761" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-4" value="&lt;div&gt;将分散、零乱、标准不统一的数据整合到一起，为生信的决策提供分析依据。&lt;/div&gt;&lt;div&gt;采用工具协助&lt;b&gt;ETL&lt;/b&gt;的开发，并运用其内置的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/metadata&quot;&gt;metadata&lt;/a&gt;功能来存储来源与目的的对应（mapping）以及转换规则。&lt;/div&gt;&lt;div&gt;工具可以提供较强大的连接功能（connectivity）来连接来源端及目的端，开发人员不用去熟悉各种相异的平台及数据的结构，亦能进行开发。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="96" y="670" width="400" height="74" as="geometry" />
+          <mxGeometry x="35" y="672" width="400" height="74" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-6" value="&lt;div&gt;&lt;b&gt;Meta databases&lt;/b&gt;&lt;/div&gt;&lt;div&gt;元数据库，合并不同来源的相关数据以更新的或更加方便的形式提供新的数据&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-98" y="1050" width="120" height="80" as="geometry" />
@@ -148,7 +151,7 @@
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-12" target="w3kBxS5y6PVgOfFdnVuS-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-12" value="&lt;div&gt;&lt;strong&gt;下机数据b转为fastq文件&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;line-numbers  language-ruby&quot;&gt;&lt;code class=&quot;  language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;样本注释文件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-12" value="&lt;div&gt;&lt;strong&gt;下机数据转换fastq&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;line-numbers  language-ruby&quot;&gt;&lt;code class=&quot;  language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;样本注释文件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-216" y="838" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-13" target="w3kBxS5y6PVgOfFdnVuS-15">
