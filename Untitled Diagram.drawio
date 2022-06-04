@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T15:10:16.377Z" agent="5.0 (Macintosh)" etag="CxQ8U9ve8yqLdoQHtXJI" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:20:00.298Z" agent="5.0 (Macintosh)" etag="NBlY4UNnwvRhO52YEnPh" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1346" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,24 @@
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-10" value="&lt;b&gt; Signal transduction pathway databases&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="592" y="926" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-11" value="&lt;b&gt;Metabolic pathway and protein function databases&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="769" y="924" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-12" target="w3kBxS5y6PVgOfFdnVuS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-12" value="&lt;div&gt;&lt;strong&gt;下机数据b转为fastq文件&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;line-numbers  language-ruby&quot;&gt;&lt;code class=&quot;  language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;样本注释文件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-158" y="821" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-13" target="w3kBxS5y6PVgOfFdnVuS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-13" value="清洗&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 28.0pt ; color: black ; font-weight: bold&quot;&gt;Toolkit&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1" y="836" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-15" value="分解&lt;code&gt;&lt;code&gt;fasterq&lt;/code&gt;-dump&lt;/code&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="826" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
