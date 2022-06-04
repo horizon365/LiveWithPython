@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T15:20:00.298Z" agent="5.0 (Macintosh)" etag="NBlY4UNnwvRhO52YEnPh" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:27:00.761Z" agent="5.0 (Macintosh)" etag="paf3VqLLJ6k0OiqVybaS" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1346" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,11 +154,29 @@
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-13" target="w3kBxS5y6PVgOfFdnVuS-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-13" value="清洗&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 28.0pt ; color: black ; font-weight: bold&quot;&gt;Toolkit&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;清洗&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;toolkit&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1" y="836" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-15" target="w3kBxS5y6PVgOfFdnVuS-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-15" value="分解&lt;code&gt;&lt;code&gt;fasterq&lt;/code&gt;-dump&lt;/code&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="826" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-18" value="结果解读" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="635" y="826" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-19" target="w3kBxS5y6PVgOfFdnVuS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-19" value="下载参考基因组索引" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="324" y="826" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-20" target="w3kBxS5y6PVgOfFdnVuS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-20" value="差异比较" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="476" y="829" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
