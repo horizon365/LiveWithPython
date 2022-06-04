@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T14:56:30.423Z" agent="5.0 (Macintosh)" etag="qMlNhtlLHUHCHWge74SW" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:09:08.977Z" agent="5.0 (Macintosh)" etag="AzaoXHWa8uRHI2L5Hd27" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1346" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,6 +123,18 @@
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-3" value="load 载入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="383" y="761" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-4" value="&lt;div&gt;将分散、零乱、标准不统一的数据整合到一起，为生信的决策提供分析依据。&lt;/div&gt;&lt;div&gt;采用工具协助&lt;b&gt;ETL&lt;/b&gt;的开发，并运用其内置的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/metadata&quot;&gt;metadata&lt;/a&gt;功能来存储来源与目的的对应（mapping）以及转换规则。&lt;/div&gt;&lt;div&gt;工具可以提供较强大的连接功能（connectivity）来连接来源端及目的端，开发人员不用去熟悉各种相异的平台及数据的结构，亦能进行开发。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="96" y="670" width="400" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-6" value="&lt;div&gt;&lt;b&gt;Meta databases&lt;/b&gt;&lt;/div&gt;&lt;div&gt;元数据库，合并不同来源的相关数据以更新的或更加方便的形式提供新的数据&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="919" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-7" value="&lt;b&gt;Model organism databases&lt;/b&gt;模式生物数据库，为深入研究模式生物提供生物数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="919" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-8" value="&lt;b&gt;Nucleic acid databases&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="917" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
