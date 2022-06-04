@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T15:38:13.502Z" agent="5.0 (Macintosh)" etag="nMUY2YnWzd_ztQLMm9-W" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:40:18.362Z" agent="5.0 (Macintosh)" etag="flQ_bbx0_l4A2Chy-IWR" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1346" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,11 +178,20 @@
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-20" value="差异比较" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="187" y="840" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-25" target="w3kBxS5y6PVgOfFdnVuS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-25" value="pg数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="415" y="962" width="60" height="56" as="geometry" />
+          <mxGeometry x="325" y="958" width="60" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-26" target="w3kBxS5y6PVgOfFdnVuS-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-26" value="Chado模式" style="shape=card;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="429" y="911" width="80" height="40" as="geometry" />
+          <mxGeometry x="435" y="966" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-28" value="vue+django" style="shape=card;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="546" y="966" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
