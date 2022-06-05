@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T00:06:27.670Z" agent="5.0 (Macintosh)" etag="s7M0LMgrLsU3OrXvJM1B" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T00:15:11.079Z" agent="5.0 (Macintosh)" etag="3Xkgiok25mq0RRCcpkhw" version="17.4.6" type="github">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1586" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,23 +148,10 @@
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-11" value="&lt;b&gt;Metabolic pathway and protein function databases&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="677" y="1442" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-12" target="w3kBxS5y6PVgOfFdnVuS-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-12" value="&lt;div&gt;&lt;strong&gt;下机数据转换fastq&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;line-numbers  language-ruby&quot;&gt;&lt;code class=&quot;  language-ruby&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;样本注释文件&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-262" y="840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-13" target="w3kBxS5y6PVgOfFdnVuS-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;清洗&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;toolkit&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-116" y="840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-15" target="w3kBxS5y6PVgOfFdnVuS-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w3kBxS5y6PVgOfFdnVuS-15" value="分解&lt;code&gt;&lt;code&gt;fasterq&lt;/code&gt;-dump&lt;/code&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="24" y="840" width="120" height="60" as="geometry" />
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" target="w3kBxS5y6PVgOfFdnVuS-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="870" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-18" value="结果解读" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="378" y="840" width="120" height="60" as="geometry" />
@@ -173,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-19" value="下载参考基因组索引" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="12" y="921" width="120" height="60" as="geometry" />
+          <mxGeometry x="-7" y="921" width="139" height="61" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="w3kBxS5y6PVgOfFdnVuS-20" target="w3kBxS5y6PVgOfFdnVuS-18">
           <mxGeometry relative="1" as="geometry" />
@@ -207,6 +194,30 @@
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-36" value="analysis&#xa;download&#xa;&#xa;resource&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="w3kBxS5y6PVgOfFdnVuS-33">
           <mxGeometry y="75" width="137" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-60" value="Process Bar" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="803" width="338" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-61" value="下机数据转换&#xa;+&#xa;样本注释文件&#xa;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=12;" vertex="1" parent="w3kBxS5y6PVgOfFdnVuS-60">
+          <mxGeometry x="10" y="33" width="120" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-62" value="清洗&#xa;toolkit&#xa;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=12;" vertex="1" parent="w3kBxS5y6PVgOfFdnVuS-60">
+          <mxGeometry x="118" y="33" width="100" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-63" value="分解&#xa;fasterq-dump" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fontSize=12;" vertex="1" parent="w3kBxS5y6PVgOfFdnVuS-60">
+          <mxGeometry x="206" y="33" width="122" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-71" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;search&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="1130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-72" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;browse&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="87" y="1130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-73" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;download&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="309" y="1130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w3kBxS5y6PVgOfFdnVuS-74" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;analysis&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="198" y="1130" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
