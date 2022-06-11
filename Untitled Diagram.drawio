@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T09:52:08.278Z" agent="5.0 (Macintosh)" etag="Eh4b4M8vDewKcxziXt4A" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-11T10:01:43.251Z" agent="5.0 (Macintosh)" etag="4cwVX0iZEmoAYS0enh5O" version="17.4.6" type="github" pages="2">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NoWb64LZTavxdnZhKHVA-35" value="化零为整，不是简单做加法" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="365" y="87" width="83" height="45" as="geometry" />
+          <mxGeometry x="263" y="56" width="83" height="45" as="geometry" />
         </mxCell>
         <mxCell id="w3kBxS5y6PVgOfFdnVuS-4" value="&lt;div&gt;将分散、零乱、标准不统一的数据整合到一起，为生信的决策提供分析依据。&lt;/div&gt;&lt;div&gt;采用工具协助&lt;b&gt;ETL&lt;/b&gt;的开发，并运用其内置的&lt;a target=&quot;_blank&quot; href=&quot;https://baike.baidu.com/item/metadata&quot;&gt;metadata&lt;/a&gt;功能来存储来源与目的的对应（mapping）以及转换规则。&lt;/div&gt;&lt;div&gt;工具可以提供较强大的连接功能（connectivity）来连接来源端及目的端，开发人员不用去熟悉各种相异的平台及数据的结构，亦能进行开发。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="454" y="565" width="400" height="74" as="geometry" />
@@ -179,13 +179,13 @@
         <mxCell id="jYfyr1I_gwku3gwYtBUT-3" value="load 载入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fizF-71HwZ7DytVWRFzL-3">
           <mxGeometry x="372" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jYfyr1I_gwku3gwYtBUT-10" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="jYfyr1I_gwku3gwYtBUT-10" value="数据库通用CRUD接口" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="465" y="890" width="48" height="45.75" as="geometry" />
         </mxCell>
         <mxCell id="fizF-71HwZ7DytVWRFzL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jYfyr1I_gwku3gwYtBUT-13" target="jYfyr1I_gwku3gwYtBUT-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jYfyr1I_gwku3gwYtBUT-13" value="django" style="shape=card;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="jYfyr1I_gwku3gwYtBUT-13" value="DRF跨项目查询" style="shape=card;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="330" y="897.33" width="73" height="31" as="geometry" />
         </mxCell>
         <mxCell id="jYfyr1I_gwku3gwYtBUT-24" value="一站式分析展示平台" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
@@ -240,6 +240,27 @@
         </mxCell>
         <mxCell id="flHSzS5wwtwoKjodcKFH-3" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;resource&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="flHSzS5wwtwoKjodcKFH-6">
           <mxGeometry x="7" y="13" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpwHQtvuC8FRifjW81CE-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="935.57" as="sourcePoint" />
+            <mxPoint x="367" y="892.57" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="337" y="935.7500000000001" />
+              <mxPoint x="307" y="912.57" />
+              <mxPoint x="317" y="892.57" />
+              <mxPoint x="367" y="872.57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpwHQtvuC8FRifjW81CE-2" value="数据入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="htM8I602sM-23vke7o8--1" value="可视化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="htM8I602sM-23vke7o8--2" value="结构化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
