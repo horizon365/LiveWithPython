@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T06:08:13.417Z" agent="5.0 (Macintosh)" etag="yP1A1h3cr9-w6psF6GLj" version="19.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-19T06:15:44.521Z" agent="5.0 (Macintosh)" etag="1-OPHWcJl1V8b_6JAwue" version="19.0.3" type="github" pages="2">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5sj5mBYmYyHhxieg3Mh" name="Page-2">
-    <mxGraphModel dx="2013" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,7 +198,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jYfyr1I_gwku3gwYtBUT-36" value="&lt;div&gt;cirro&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" parent="1" vertex="1">
-          <mxGeometry x="614" y="897.88" width="30" height="30" as="geometry" />
+          <mxGeometry x="614" y="897.33" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jYfyr1I_gwku3gwYtBUT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jYfyr1I_gwku3gwYtBUT-22" target="jYfyr1I_gwku3gwYtBUT-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -276,6 +276,18 @@
         </mxCell>
         <mxCell id="GWcMPp5VIIcA2RSjYivt-10" value="&lt;h1&gt;机器学习&lt;br&gt;&lt;/h1&gt;&lt;p&gt;样本训练机器学习模型，减少人工审核参与&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-190" y="910" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GWcMPp5VIIcA2RSjYivt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GWcMPp5VIIcA2RSjYivt-17" target="jYfyr1I_gwku3gwYtBUT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GWcMPp5VIIcA2RSjYivt-17" value="CNGB—DM" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="1070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GWcMPp5VIIcA2RSjYivt-18" value="CNSA" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1073.88" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GWcMPp5VIIcA2RSjYivt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=120;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="flHSzS5wwtwoKjodcKFH-3" target="GWcMPp5VIIcA2RSjYivt-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
