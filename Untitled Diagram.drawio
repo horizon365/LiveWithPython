@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T09:46:08.529Z" agent="5.0 (Macintosh)" etag="LvpdW1Owpu5IQWr1IwQr" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-01T09:55:41.216Z" agent="5.0 (Macintosh)" etag="o4lhgzjNIZq8A23A3C8v" version="20.0.3" type="github" pages="2">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="2306" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,10 +340,7 @@
           <mxGeometry x="884" y="404" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-25" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="651" y="190" width="69" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="uJI7TZvomheFzYvKa-wT-26" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Server_Private_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="660" y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="31" y="68" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-27" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Rack_Private_128x128.png" vertex="1" parent="1">
           <mxGeometry x="1090" y="324" width="220" height="130" as="geometry" />
@@ -358,7 +355,7 @@
           <mxGeometry x="-277" y="-29" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-33" value="Cloud computer" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#FF6E30;" vertex="1" parent="1">
-          <mxGeometry x="83" y="302" width="178" height="145" as="geometry" />
+          <mxGeometry x="83" y="302" width="197" height="145" as="geometry" />
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6E30;" edge="1" parent="uJI7TZvomheFzYvKa-wT-33" source="uJI7TZvomheFzYvKa-wT-56" target="uJI7TZvomheFzYvKa-wT-60">
           <mxGeometry relative="1" as="geometry" />
@@ -380,6 +377,9 @@
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-plus-empty-128.png;fontColor=#FF6E30;" vertex="1" parent="uJI7TZvomheFzYvKa-wT-67">
           <mxGeometry x="15.583333333333314" y="15.321428571428555" width="27.107142857142858" height="27.107142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="uJI7TZvomheFzYvKa-wT-26" value="" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Server_Private_128x128.png" vertex="1" parent="uJI7TZvomheFzYvKa-wT-33">
+          <mxGeometry x="117" y="32.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF6E30;" edge="1" parent="1" source="uJI7TZvomheFzYvKa-wT-34" target="uJI7TZvomheFzYvKa-wT-35">
           <mxGeometry relative="1" as="geometry" />
@@ -471,6 +471,14 @@
         </mxCell>
         <mxCell id="uJI7TZvomheFzYvKa-wT-70" value="Quasar" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-vue-128.png;fontColor=#FF6E30;" vertex="1" parent="1">
           <mxGeometry x="45" y="226" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uJI7TZvomheFzYvKa-wT-75" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelBackgroundColor=#FFFFFF;fontColor=#FF6E30;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="258" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="uJI7TZvomheFzYvKa-wT-76" value="HTTPS&#xa;Load Balancer" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.network_load_balancer;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;labelBackgroundColor=#FFFFFF;fontColor=#FF6E30;" vertex="1" parent="uJI7TZvomheFzYvKa-wT-75">
+          <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
