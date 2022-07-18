@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T01:46:04.894Z" agent="5.0 (Macintosh)" etag="bYU-e8z93hzQzXXZyvjL" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T01:46:55.786Z" agent="5.0 (Macintosh)" etag="btSEBXJ-xIi2bkIeuXia" version="20.0.4" type="github" pages="3">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -635,12 +635,7 @@
             <mxPoint x="420" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="[Components] Diagram title" c4Type="ContainerDiagramTitle" c4Description="Diagram short description" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Description%&lt;/div&gt;" id="1OQoliLQ2rSvkwDcF05Q-96">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;metaEdit=1;allowArrows=0;resizable=1;rotatable=0;connectable=0;recursiveResize=0;expand=0;pointerEvents=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=1;" vertex="1" parent="1">
-            <mxGeometry x="66" y="660" width="260" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-97" value="OpenResty + Lua + Redis 实现高性能短网址服务" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-97" value="1. OpenResty + Lua + Redis 实现高性能短网址服务" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="330" y="639" width="840" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-98" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -667,7 +662,7 @@
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-94" value="DB 主域名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
           <mxGeometry x="58" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-99" value="DB 域名下挂载短网址服务，避免OpenResty 影响其它项目" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-99" value="2. DB 域名下挂载短网址服务，避免OpenResty 影响其它项目" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="333" y="800" width="840" height="40" as="geometry" />
         </mxCell>
       </root>
