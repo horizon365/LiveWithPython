@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T01:46:55.786Z" agent="5.0 (Macintosh)" etag="btSEBXJ-xIi2bkIeuXia" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T02:12:20.307Z" agent="5.0 (Macintosh)" etag="Cgdql1Zg44uc6InrZax6" version="20.0.4" type="github" pages="3">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -638,32 +638,57 @@
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-97" value="1. OpenResty + Lua + Redis 实现高性能短网址服务" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="330" y="639" width="840" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-98" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="340" y="730" width="826" height="63" as="geometry" />
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-99" value="2. DB 主域名下转发短网址服务，避免OpenResty 影响其它项目" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="326" y="920" width="840" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-88" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; location /short/ {&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; proxy_pass http://dbdev.cngb.org:8080/;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
-          <mxGeometry x="276" y="23" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-89" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;http://dbdev.cngb.org:8080/short/?url={}&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
-          <mxGeometry x="486" y="23" width="340" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1OQoliLQ2rSvkwDcF05Q-98" source="1OQoliLQ2rSvkwDcF05Q-88" target="1OQoliLQ2rSvkwDcF05Q-89">
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1OQoliLQ2rSvkwDcF05Q-88" target="1OQoliLQ2rSvkwDcF05Q-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1OQoliLQ2rSvkwDcF05Q-98" source="1OQoliLQ2rSvkwDcF05Q-91" target="1OQoliLQ2rSvkwDcF05Q-88">
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-88" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; location /short/ {&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; proxy_pass http://dbdev.cngb.org:8080/;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="750" width="204" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1OQoliLQ2rSvkwDcF05Q-89" target="1OQoliLQ2rSvkwDcF05Q-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-91" value="http://dbdev.cngb.org/short/000j" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
-          <mxGeometry y="30" width="176" height="25" as="geometry" />
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-113" value="缩短" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1OQoliLQ2rSvkwDcF05Q-112">
+          <mxGeometry x="-0.0523" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-93" value="OpenResty 默认端口 8080" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
-          <mxGeometry x="556" width="160" height="30" as="geometry" />
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-89" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;http://dbdev.cngb.org:8080/short/?url={}&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="860" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-94" value="DB 主域名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1OQoliLQ2rSvkwDcF05Q-98">
-          <mxGeometry x="58" width="60" height="30" as="geometry" />
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1OQoliLQ2rSvkwDcF05Q-91" target="1OQoliLQ2rSvkwDcF05Q-88">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1OQoliLQ2rSvkwDcF05Q-99" value="2. DB 域名下挂载短网址服务，避免OpenResty 影响其它项目" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="333" y="800" width="840" height="40" as="geometry" />
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-100" value="还原" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1OQoliLQ2rSvkwDcF05Q-92">
+          <mxGeometry x="-0.1244" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-91" value="http://dbdev.cngb.org/short/000j" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="176" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-93" value="OpenResty 端口 8080（仅内网）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="830" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-94" value="DB 主域名（公网）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="730" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-103" value="DB 上nginx配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="710" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-104" value="OpenResty 配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="728" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-105" value="location /" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="758" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-108" value="OpenResty 配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="840" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1OQoliLQ2rSvkwDcF05Q-109" value="location /short" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="865" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
