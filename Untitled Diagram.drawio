@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T02:12:20.307Z" agent="5.0 (Macintosh)" etag="Cgdql1Zg44uc6InrZax6" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T02:13:36.489Z" agent="5.0 (Macintosh)" etag="R0PWkQb-5qDCzkoaAaAB" version="20.0.4" type="github" pages="3">
   <diagram id="1nMxWi1Cagmed0x1KSgk" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -645,7 +645,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-88" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; location /short/ {&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; proxy_pass http://dbdev.cngb.org:8080/;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="616" y="750" width="204" height="47" as="geometry" />
+          <mxGeometry x="640" y="749.5" width="204" height="47" as="geometry" />
         </mxCell>
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1OQoliLQ2rSvkwDcF05Q-89" target="1OQoliLQ2rSvkwDcF05Q-109">
           <mxGeometry relative="1" as="geometry" />
@@ -676,7 +676,7 @@
           <mxGeometry x="398" y="730" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-103" value="DB 上nginx配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="710" width="100" height="30" as="geometry" />
+          <mxGeometry x="700" y="700" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1OQoliLQ2rSvkwDcF05Q-104" value="OpenResty 配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="728" width="100" height="30" as="geometry" />
